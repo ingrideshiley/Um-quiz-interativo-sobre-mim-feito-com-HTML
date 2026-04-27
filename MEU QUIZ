@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ SOBRE MIM</title>
+    <meta name="description" content="um quiz interativo para testa se me conhece">
+</head>
+<body>
+    <header>
+        <h1>Quiz interativo para  me conhecer</h1>
+        <p>Você realmente me conhece? veja qual sua pontuação de acertos!</p>
+    </header>
+    <main>
+       <!--SECTION 2- INTRODUÇÃO-->
+        <SECTION>
+        <H2>Sobre esse Quiz</H2>
+        <p>este quiz foi feito para testar seu <strong> conhecimento</strong> sobre <b>mim</b></p>
+        <p>voce terá varias perguntas sobre mim <em>estilo,gosto,comida preferida e etc...</em>
+        <br>Vamos ver o quanto voce me conhece! <abbr title="SERÁ QUE VOCÊ SABE?">SRQSB? (coloque o mause sobre a palavra)
+        </SECTION>
+        <!--SECTION 1 PERGUNTA 1-->
+        <SECTion>
+            <H2>PERGUNTA 1:qual minha fruta favorita?</H2>
+            <form>
+            <input type="radio" value="manga" id="p1a" name="pergunta1">
+            <label for="p1a">MANGA</label><BR>
+            <input type="radio" value="melão" id="p2b" name="pergunta1">
+            <label for="p2b">MELÃO</label><BR>
+            <input type="radio" value="uva" id="p3c" name="pergunta1">
+            <label for="p3c">UVA</label><BR>
+            <input type="radio" value="abacate" id="p4d" name="pergunta1">
+            <label for="p4d">ABACATE</label>
+            </form>
+        </section>
+            <!--selection 2 pergunta 2-->
+        <section>
+            <h2>PERGUNTA 2:Qual meu prato favorito??</h2>
+            <form >
+            <input type="text" id="p2" name="pergunta 2"
+            placeholder="digite aqui :)"
+            </form>
+        </section>
+            <!--section 3 pergunta 3-->
+        <section>
+            <H2>PERGUNTA 3:eu prefiro doce ou salgado?</H2>
+           <form>
+            <input type="passoword" id="p3" name="pergunta 3" placeholder="digite a resposta <3"
+           </form>
+        </section>
+        <!--section 4 pergunta 4-->
+        <section>
+                  <h2>PERGUNTA 4:quando eu nasci?</h2>
+            <form>
+                  <input type="date" id="p4" name="pergunta 4">
+             </form>
+        </section>
+        <!--section 5  pergunta 5-->
+        <section></section>
+        <!--tabela de pontuação-->
+        <section>
+           <h2>TABELA DE PONTUAÇÃO</h2> 
+        <table border="1">
+            <thead>
+                 <tr>
+                     <th>pontuação</th>
+                     <th>avaliação</th>
+                 </tr>
+             </thead>
+                  <tr>
+                      <td>0/4</td> 
+                     <td>-Acho que precisamos passar mais tempo juntos 😅</td>
+                 </tr>
+                  <tr>
+                     <td>1/4</td> 
+                     <td>-você sabe algo de mim 🥺</td>
+                </tr>
+                     <td>2/4</td> 
+                     <td>-Tá começando a me conhecer 👀</td>
+                  </tr>
+                      <td>3/4</td> 
+                     <td>-Você me conhece bem 😄</td>
+                 </tr>
+                      <td>4/4</td> 
+                      <td>-Você me conhece de verdade ❤️</td>
+                  </tr>
+           <tfoot>
+                 <tr>
+                     <td colspan="2">Quem sabe da próxima você acerta mais!</td>
+                 </tr>
+           </tfoot>
+           </table>
+        </section>
+       <!--lista de respostas-->
+        <section>
+             <h2>verifique as respostas</h2>
+             <DETAILs>
+        <SUMMARY>CLIQUE AQUI PARA AS RESPOSTAS DO QUIZ</SUMMARY>
+     <ul>
+        <LI>ABACATE</LI>
+        <li>ESTROGONOFE</li>
+        <LI>DOCE</LI>
+        <LI>25/11/2008</LI>
+     </ul>
+             </DETAILs>
+         </section>
+        <!--FORMULARIO DE FEEDBACK-->
+       <section>
+          <h2>ME DÊ SEU FEEDBACK</h2>
+         <form>
+            <fieldset>
+                <legend>informaçoes de contato</legend>
+             <label for="nome">Nome:</label>
+             <input type="text" id="name" name="nome"><br>
+             <label for="email">Email:</label>
+             <input type="email" id="email" name="email"><br>
+             <label for="comENTARIOS">Comentarios</label><br>
+             <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="digite aqui seu comentario sobre o quiz"></textarea>
+              </fieldset>
+          </form>
+       </section>     
+     </main>
+          <footer>
+          <p>&copy;quiz feito por ingrid eshiley</p>
+          <p>conheça meu github <a href="">clique aqui</a></p>
+         </footer>
+</body>
+</html>
